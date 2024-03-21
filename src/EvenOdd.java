@@ -17,5 +17,6 @@ public class EvenOdd {
 	else {
 		System.out.println("홀수입니다.");
 	}
+	System.out.printf("프로그램이 종료되었습니다.");
 	}
 }
