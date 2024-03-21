@@ -11,11 +11,11 @@ public class EvenOdd {
 	System.out.printf("숫자를 입력하세요 :");
 	num = input.nextInt();
 	
-	if(num>0) {
-		System.out.println("양수입니다.");
+	if(num%2==0) {
+		System.out.println("짝수입니다.");
 	}
 	else {
-		System.out.println("0 또는 음수입니다.");
+		System.out.println("홀수입니다.");
 	}
 	}
 }
